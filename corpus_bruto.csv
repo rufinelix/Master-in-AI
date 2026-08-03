@@ -1,0 +1,91 @@
+id_mensaje,texto_crudo,categoria,urgencia
+0,FUEGO EN CONTENEDOR en c/ Colón nº32!! ruego policía o bomberos ya porque se pasa a los coches,Residuos_Limpieza,Alta
+1,"Han tirado jeringuillas y restos médicos al lado del parque de avd. Blasco Ibáñez, peligro para niños",Residuos_Limpieza,Alta
+2,"Gato muerto atropellado en plaza del ayuntamiento desde ayer por la tarde, huele fatal",Residuos_Limpieza,Alta
+3,"Contenedor volcado en medio de calle San Vicente, bloquea el paso",Residuos_Limpieza,Alta
+4,Líquido raro saliendo de un camión de basura en Gran Vía Marqués del Turia,Residuos_Limpieza,Alta
+5,Ratas enormes saliendo de un solar abandonado en calle Quart,Residuos_Limpieza,Alta
+6,Muebles y colchón tirados en la acera de calle Colón desde el sábado,Residuos_Limpieza,Media
+7,Basura acumulada fuera de los contenedores en avenida del Cid,Residuos_Limpieza,Media
+8,Los contenedores de orgánico están rotos y no se pueden abrir,Residuos_Limpieza,Media
+9,Papeleras de plaza de la Reina a rebosar todo el fin de semana,Residuos_Limpieza,Media
+10,Huele muy mal cuando pasa el camión de la basura por calle Caballeros,Residuos_Limpieza,Media
+11,Manchas de grasa en el suelo de avenida de Francia desde hace días,Residuos_Limpieza,Media
+12,¿Dónde puedo reciclar pilas usadas cerca de Xàtiva?,Residuos_Limpieza,Baja
+13,Quiero saber el horario del ecoparque móvil de Ruzafa,Residuos_Limpieza,Baja
+14,Sugerencia: poner más contenedores de plástico en calle Sagunto,Residuos_Limpieza,Baja
+15,¿A qué hora se puede tirar la basura legalmente?,Residuos_Limpieza,Baja
+16,Consulta sobre recogida de trastos viejos en calle Cuba,Residuos_Limpieza,Baja
+17,Felicitaciones a los barrenderos de la zona de calle Pelayo,Residuos_Limpieza,Baja
+18,Semáforo roto en cruce de avenida Blasco Ibáñez con calle Rumiñahui,Movilidad_Transporte,Alta
+19,Socavón enorme en carril bus de avenida del Cid,Movilidad_Transporte,Alta
+20,Se ha caído una señal de dirección prohibida en calle San Vicente,Movilidad_Transporte,Alta
+21,"Aceite en la calzada en la rotonda de plaza España, varias motos resbalando",Movilidad_Transporte,Alta
+22,Atropello por falta de visibilidad en paso de peatones de calle Sagunto,Movilidad_Transporte,Alta
+23,Barrera del paso a nivel bajada desde hace media hora y no pasa ningún tren,Movilidad_Transporte,Alta
+24,El bus 92 de EMT lleva 45 minutos de retraso,Movilidad_Transporte,Media
+25,Obras sin señalizar junto al carril bici de avenida Francia,Movilidad_Transporte,Media
+26,Coches en doble fila impiden pasar al autobús,Movilidad_Transporte,Media
+27,Patinetes eléctricos circulando por la acera a gran velocidad,Movilidad_Transporte,Media
+28,La app de EMT no funciona desde ayer,Movilidad_Transporte,Media
+29,Falta pintura en el paso de peatones de calle Sagunto,Movilidad_Transporte,Media
+30,¿Dónde puedo renovar el bono transporte para jubilados?,Movilidad_Transporte,Baja
+31,Sugerencia: añadir un aparcabicis en calle Quart,Movilidad_Transporte,Baja
+32,Consulta sobre ampliación del carril bici en Gran Vía,Movilidad_Transporte,Baja
+33,El poste informativo de la parada de Xàtiva no se lee bien,Movilidad_Transporte,Baja
+34,¿Se puede subir el perro al autobús de EMT?,Movilidad_Transporte,Baja
+35,Me gustaría saber si cambiarán el sentido de circulación de mi calle,Movilidad_Transporte,Baja
+36,"Toda la calle Quart a oscuras desde anoche, da mucho miedo pasar",Alumbrado_Publico,Alta
+37,Cables pelados colgando de una farola rota en calle Colón 15,Alumbrado_Publico,Alta
+38,Farola a punto de caerse tras golpe de camión en avenida del Cid,Alumbrado_Publico,Alta
+39,Apagón general en Ruzafa desde hace dos horas,Alumbrado_Publico,Alta
+40,Caja de conexiones abierta en farola de plaza del Ayuntamiento,Alumbrado_Publico,Alta
+41,La farola de calle Caballeros echa chispas cuando llueve,Alumbrado_Publico,Alta
+42,Farola parpadeando en avenida Blasco Ibáñez,Alumbrado_Publico,Media
+43,Luz fundida en calle San Vicente 88,Alumbrado_Publico,Media
+44,El reloj de encendido del alumbrado va mal en calle La Paz,Alumbrado_Publico,Media
+45,La farola de plaza de la Reina apenas alumbra,Alumbrado_Publico,Media
+46,Zumbido molesto del transformador de una farola,Alumbrado_Publico,Media
+47,Los árboles tapan los focos en Gran Vía Marqués del Turia,Alumbrado_Publico,Media
+48,¿A quién corresponde avisar para cambiar bombillas de farolas?,Alumbrado_Publico,Baja
+49,Consulta sobre soterramiento de cables en mi barrio,Alumbrado_Publico,Baja
+50,Sugerencia: iluminar más los monumentos del centro,Alumbrado_Publico,Baja
+51,¿Hay previsto poner farolas solares en la zona nueva?,Alumbrado_Publico,Baja
+52,Pregunta sobre consumo eléctrico del alumbrado público,Alumbrado_Publico,Baja
+53,Gracias por arreglar tan rápido la luz de calle Ciscar,Alumbrado_Publico,Baja
+54,Fiesta ilegal en un piso de calle Caballeros desde la 1 de la madrugada,Ruido_Nocturno,Alta
+55,Pelea de borrachos y botellas rotas en plaza Honduras,Ruido_Nocturno,Alta
+56,Música altísima en local sin insonorizar de Ruzafa,Ruido_Nocturno,Alta
+57,Alarma de negocio sonando sin parar desde ayer por la tarde,Ruido_Nocturno,Alta
+58,Gritos y amenazas en la puerta de un pub en calle Quart,Ruido_Nocturno,Alta
+59,Botellón enorme con gente chillando en el parque hasta las 4 am,Ruido_Nocturno,Alta
+60,La terraza del bar recoge mesas a las 3 am haciendo mucho ruido,Ruido_Nocturno,Media
+61,Camión de basura pasando de madrugada con mucho estruendo,Ruido_Nocturno,Media
+62,Extractor de humos de una pizzería hace un ruido constante,Ruido_Nocturno,Media
+63,Coches pitando por atasco nocturno cerca del centro,Ruido_Nocturno,Media
+64,Ladridos continuos de perros en una terraza,Ruido_Nocturno,Media
+65,Concierto con altavoces excesivos en plaza del Ayuntamiento,Ruido_Nocturno,Media
+66,¿Cuál es el límite de decibelios permitido para una reforma?,Ruido_Nocturno,Baja
+67,Consulta sobre ordenanza municipal del ruido para músicos,Ruido_Nocturno,Baja
+68,Sugerencia: poner paneles acústicos en avenida del Cid,Ruido_Nocturno,Baja
+69,¿Dónde puedo presentar una queja formal por ruido?,Ruido_Nocturno,Baja
+70,Me gustaría saber si el ayuntamiento mide el ruido ambiental,Ruido_Nocturno,Baja
+71,Pregunta sobre subvenciones para aislamiento acústico,Ruido_Nocturno,Baja
+72,Rama gigante caída en medio del parque de avenida Blasco Ibáñez,Zonas_Verdes,Alta
+73,Árbol podrido a punto de romperse en jardín de calle Quart,Zonas_Verdes,Alta
+74,Columpios rotos con hierros salientes en parque infantil,Zonas_Verdes,Alta
+75,Enjambre enorme de abejas en un árbol de plaza del Ayuntamiento,Zonas_Verdes,Alta
+76,Socavón peligroso tapado por hojas secas en los jardines del río,Zonas_Verdes,Alta
+77,Palmera ardiendo por un petardo en la zona de San Vicente,Zonas_Verdes,Alta
+78,Aspersores rotos inundando el paseo,Zonas_Verdes,Media
+79,Falta de poda en jardines de calle Colón,Zonas_Verdes,Media
+80,Cristales rotos en la zona canina del parque,Zonas_Verdes,Media
+81,Setos descontrolados invadiendo el carril bici,Zonas_Verdes,Media
+82,Hierba muy alta sin cortar desde hace un mes,Zonas_Verdes,Media
+83,Bancos del parque llenos de pintadas y astillas,Zonas_Verdes,Media
+84,¿Dónde puedo solicitar que planten un árbol en un alcorque vacío?,Zonas_Verdes,Baja
+85,Sugerencia: poner más fuentes de agua potable en parques,Zonas_Verdes,Baja
+86,Consulta sobre permisos para hacer fotos en jardines municipales,Zonas_Verdes,Baja
+87,Me gustaría saber qué flores van a plantar esta temporada,Zonas_Verdes,Baja
+88,¿Hay alguna asociación vecinal que cuide huertos urbanos?,Zonas_Verdes,Baja
+89,Felicitaciones por el mantenimiento de los parterres del barrio,Zonas_Verdes,Baja

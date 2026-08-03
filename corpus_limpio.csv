@@ -1,0 +1,91 @@
+id_mensaje,texto_preprocesado,categoria,urgencia
+0,fuego contenedor calle colon numero32 ruego policiar bombero pasar coche,Residuos_Limpieza,Alta
+1,tirar jeringuilla resto medico lado parque avenida blasco ibanez peligro nino,Residuos_Limpieza,Alta
+2,gato muerto atropellado plaza ayuntamiento ayer tarde oler fatal,Residuos_Limpieza,Alta
+3,contenedor volcado medio calle san vicente bloquea paso,Residuos_Limpieza,Alta
+4,liquido raro salir camion basura gran via marques turio,Residuos_Limpieza,Alta
+5,rata enorme salir solar abandonado calle quart,Residuos_Limpieza,Alta
+6,mueble colchon tirado acera calle colon sabado,Residuos_Limpieza,Media
+7,basura acumulado contenedor avenido cid,Residuos_Limpieza,Media
+8,contenedor organico roto no poder abrir,Residuos_Limpieza,Media
+9,papelera plaza reina rebosar fin semana,Residuos_Limpieza,Media
+10,oler mal pasar camion basura calle caballero,Residuos_Limpieza,Media
+11,mancha grasar suelo avenida francia hacer dia,Residuos_Limpieza,Media
+12,poder reciclar pila usado cerca xativo,Residuos_Limpieza,Baja
+13,querer saber horario ecoparcar movil ruzafa,Residuos_Limpieza,Baja
+14,sugerencia poner mas contenedor plastico calle sagunto,Residuos_Limpieza,Baja
+15,hora poder tirar basura legalmente,Residuos_Limpieza,Baja
+16,consulta recogido trasto viejo calle cuba,Residuos_Limpieza,Baja
+17,felicitación barrendero zona calle pelayo,Residuos_Limpieza,Baja
+18,semaforir roto cruce avenida blasco ibanez calle ruminahui,Movilidad_Transporte,Alta
+19,socavon enorme carril bus avenida cid,Movilidad_Transporte,Alta
+20,caer senal direccion prohibido calle san vicente,Movilidad_Transporte,Alta
+21,aceite calzado rotondo plaza espán varios moto resbalar,Movilidad_Transporte,Alta
+22,atropello faltar visibilidad paso peatón calle sagunto,Movilidad_Transporte,Alta
+23,barrera paso nivel bajado hacer medio hora no pasar ningun tren,Movilidad_Transporte,Alta
+24,bus 92 emt llevar 45 minuto retraso,Movilidad_Transporte,Media
+25,obra sin senalizar junto carril bici avenida francia,Movilidad_Transporte,Media
+26,coche doble fila impedir pasar autobus,Movilidad_Transporte,Media
+27,patinet electrico circular acera gran velocidad,Movilidad_Transporte,Media
+28,aplicacion emt no funcionar ayer,Movilidad_Transporte,Media
+29,faltar pintura pasar peatón calle sagunto,Movilidad_Transporte,Media
+30,poder renovar bono transporte jubilado,Movilidad_Transporte,Baja
+31,sugerencia anadir aparcabicis calle quart,Movilidad_Transporte,Baja
+32,consulta ampliacion carril bici gran via,Movilidad_Transporte,Baja
+33,poste informativo parado xativo no leer bien,Movilidad_Transporte,Baja
+34,poder subir perro autobus emt,Movilidad_Transporte,Baja
+35,gustario saber si cambiar circulacion calle,Movilidad_Transporte,Baja
+36,calle quart oscura anoche dar miedo pasar,Alumbrado_Publico,Alta
+37,cable pelado colgar farola roto calle colon 15,Alumbrado_Publico,Alta
+38,farola punto caer él tras golpe camion avenida cid,Alumbrado_Publico,Alta
+39,apagon general ruzafa hacer dos hora,Alumbrado_Publico,Alta
+40,cajar conexión abierto farola plaza ayuntamiento,Alumbrado_Publico,Alta
+41,farola calle caballeros echar chispa llover,Alumbrado_Publico,Alta
+42,farola parpadear avenida blasco ibanez,Alumbrado_Publico,Media
+43,luz fundido calle san vicente 88,Alumbrado_Publico,Media
+44,reloj encendido alumbrado ir mal calle paz,Alumbrado_Publico,Media
+45,farola plaza reina apenas alumbro,Alumbrado_Publico,Media
+46,zumbido molesto transformador farola,Alumbrado_Publico,Media
+47,arbol tapar foco gran via marques turio,Alumbrado_Publico,Media
+48,corresponder avisar cambiar bombilla farola,Alumbrado_Publico,Baja
+49,consulta soterramiento cabl barrio,Alumbrado_Publico,Baja
+50,sugerencia iluminar mas monumento centro,Alumbrado_Publico,Baja
+51,previsto poner farola solar zona nuevo,Alumbrado_Publico,Baja
+52,preguntar consumo electrico alumbrado publico,Alumbrado_Publico,Baja
+53,gracias arreglar rapido luz callar ciscar,Alumbrado_Publico,Baja
+54,fiesta ilegal piso calle caballeros 1 madrugada,Ruido_Nocturno,Alta
+55,pelear borracho botella roto plaza honduras,Ruido_Nocturno,Alta
+56,musico altisimo local sin insonorizar ruzafa,Ruido_Nocturno,Alta
+57,alarmar negocio sonar sin parar ayer tarde,Ruido_Nocturno,Alta
+58,grito amenaza puerto pub calle quart,Ruido_Nocturno,Alta
+59,botellon enorme gente chillar parque 4 am,Ruido_Nocturno,Alta
+60,terrazar bar recoger mesa 3 am hacer ruido,Ruido_Nocturno,Media
+61,camion basura pasar madrugado estruendo,Ruido_Nocturno,Media
+62,extractor humo pizzerio hacer ruido constante,Ruido_Nocturno,Media
+63,coche pitar atasco nocturno cerca centro,Ruido_Nocturno,Media
+64,ladrido continuo perro terrazar,Ruido_Nocturno,Media
+65,concierto altavoz excesivo plazar ayuntamiento,Ruido_Nocturno,Media
+66,limite decibelios permitido reforma,Ruido_Nocturno,Baja
+67,consulta ordenanza municipal ruido musico,Ruido_Nocturno,Baja
+68,sugerencia poner panel acustico avenida cid,Ruido_Nocturno,Baja
+69,poder presentar queja formal ruido,Ruido_Nocturno,Baja
+70,gustario saber si ayuntamiento medir ruido ambiental,Ruido_Nocturno,Baja
+71,preguntar subvención aislamiento acustico,Ruido_Nocturno,Baja
+72,ramar gigante caido medio parque avenida blasco ibanez,Zonas_Verdes,Alta
+73,arbol podrido punto romper él jardin calle quart,Zonas_Verdes,Alta
+74,columpio roto hierro saliente parque infantil,Zonas_Verdes,Alta
+75,enjambre enorme abeja arbol plaza ayuntamiento,Zonas_Verdes,Alta
+76,socavon peligroso tapado hoja seco jardín rio,Zonas_Verdes,Alta
+77,palmera arder petardo zona san vicente,Zonas_Verdes,Alta
+78,aspersor roto inundar paseo,Zonas_Verdes,Media
+79,faltar podo jardín calle colon,Zonas_Verdes,Media
+80,cristal roto zona canín parque,Zonas_Verdes,Media
+81,seto descontrolado invadir carril bici,Zonas_Verdes,Media
+82,hierba alto sin cortar hacer mes,Zonas_Verdes,Media
+83,banco parcar lleno pintada astilla,Zonas_Verdes,Media
+84,poder solicitar planten arbol alcorque vacio,Zonas_Verdes,Baja
+85,sugerencia poner mas fuente agua potable parques,Zonas_Verdes,Baja
+86,consultar permiso hacer foto jardín municipal,Zonas_Verdes,Baja
+87,gustario saber flores ir plantar temporada,Zonas_Verdes,Baja
+88,alguno asociacion vecinal cuidir huerto urbano,Zonas_Verdes,Baja
+89,felicitación mantenimiento parterr barrio,Zonas_Verdes,Baja

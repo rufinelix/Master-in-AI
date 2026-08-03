@@ -1,0 +1,17 @@
+{
+    "categorias": [
+        "Residuos_Limpieza",
+        "Movilidad_Transporte",
+        "Alumbrado_Publico",
+        "Ruido_Nocturno",
+        "Zonas_Verdes"
+    ],
+    "urgencias": [
+        "Alta",
+        "Media",
+        "Baja"
+    ],
+    "hash_bruto": "d6c9b300ca6a77ff7f52ecd6e9a11264df3de9d4110312292a41705fbb69634b",
+    "hash_limpio": "77352cc1a2bca3fa8316380c6ea0a6978cf5d42f430b4d9c98e2d50a08aa834b",
+    "semilla": 20268433
+}
