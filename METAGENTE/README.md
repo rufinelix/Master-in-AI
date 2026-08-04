@@ -1,7 +1,7 @@
 # Metagente-Inspired Summarization Prototype
 
 ## Project Goal
-This project is a minimal, file-based prototype for software document summarization, inspired by the "Metagente" architecture (Nguyen et al.). It automates the process of extracting, summarizing, and iteratively optimizing prompt instructions for Large Language Models (LLMs).
+This project is a minimal, file-based prototype for software document summarization, inspired by the "Metagente" architecture (Nguyen et al., 2026). It automates the process of extracting, summarizing, and iteratively optimizing prompt instructions for Large Language Models (LLMs).
 
 ## Project State
 
