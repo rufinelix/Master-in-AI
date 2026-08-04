@@ -1,0 +1,160 @@
+# Docker Certified Associate Exam Preparation Guide (v1.5 December 2022)
+
+## Links Checker
+
+
+## GitHub Stars Sparklines
+
+
+## Introduction
+This guide is intended to be a point of knowledge for everyone who wants to pass . The main idea is to provide links to every topic in each domain. Preference will always be the official documentation, but feel free to add useful links.
+
+Web version can be found here: 
+
+## Important Info
+
+Some of the products have been renamed, there are no changes regarding this in the Official Study Guide yet. 
+
+- Docker Trusted Registry (DTR) was renamed to Mirantis Secure Registry (MSR) - 
+- Docker Enterprise/UCP was renamed to Mirantis Kubernetes Engine (MKE) - 
+
+## Table of Contents
+
+1. 
+1. 
+1. 
+1. 
+1. 
+1. 
+1. 
+1. 
+1. 
+
+
+## Content
+
+### Domain 1: Orchestration (25% of exam)
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+-  
+- 
+- 
+- Apply node labels to demonstrate placement of tasks (, )
+- 
+- 
+- 
+- 
+- 
+
+### Domain 2: Image Creation, Management, and Registry (20% of exam)
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- Describe and demonstrate how to modify an image to a single layer (, )
+- 
+- 
+- 
+- 
+- 
+- 
+-  and  images from a registry
+
+### Domain 3: Installation and Configuration (15% of exam)
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- Describe and demonstrate the steps to deploy the docker engine in     and possibly 
+- Describe and demonstrate how to configure backups for UCP and DTR:
+  - 
+  - 
+
+### Domain 4: Networking (15% of exam)
+- 
+- 
+- 
+- 
+- 
+- 
+- Compare and contrast “host” and “ingress” publishing modes (, )
+- 
+- 
+- 
+- 
+- (Since Study Guide 1.5) 
+- (Since Study Guide 1.5) 
+
+### Domain 5: Security (15% of exam)
+- (Since Study Guide 1.5) Describe  and 
+- 
+- 
+- 
+- 
+- 
+- Describe the difference between UCP workers and managers:
+  - 
+  - 
+- Describe process to use external certificates with:
+  1. UCP 
+  - 
+  - 
+  - 
+  2. 
+- 
+- 
+- 
+- 
+- 
+
+### Domain 6: Storage and Volumes (10% of exam)
+- 
+- 
+- 
+- 
+- 
+- Identify the steps you would take to clean up unused images on a filesystem, also on DTR.
+(,  and )
+- , 
+ - (Since Study Guide 1.5) 
+ - (Since Study Guide 1.5) Describe the relationship between , ,  and  in Kubernetes
+
+## Exam Details
+
+- 13 multiple choice and 42 discrete option multiple choice (DOMC) questions in 90 minutes
+- Designed to validate professionals with a minimum of 6 to 12 months of Docker experience
+- Remotely proctored on your Windows or Mac computer
+- Available globally in English
+- USD $195 or Euro €200 purchased online
+- Results delivered immediately
+
+## Useful Links
+
+- 
+- 
+- 
+
+## Preparation
+
+- 
+
+## Contributors
+
+Thanks to all 

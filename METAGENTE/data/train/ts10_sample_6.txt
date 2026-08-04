@@ -1,0 +1,37 @@
+
+
+Mapbox GL JS is a JavaScript library for interactive, customizable vector maps on the web. It takes map styles that conform to the
+, applies them to vector tiles that
+conform to the , and renders them using
+WebGL.
+
+Mapbox GL JS is part of the , which also includes
+compatible native SDKs for applications on ,
+, ,
+, and . Mapbox provides building blocks to add location features like maps, search, and navigation into any experience you
+create. To get started with GL JS or any of our other building blocks,
+.
+
+In addition to GL JS, this repository contains code, issues, and test fixtures that are common to both GL JS and the
+native SDKs. For code and issues specific to the native SDKs, see the
+ repository.
+
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+
+
+
+Caption: (Mapbox GL JS maps, left-to-right, top-to-bottom): Custom styled point , custom style with points,  on a  map with , data-driven  over a  with ,  with custom ,  visualization.
+
+## License
+
+Mapbox Web SDK
+
+Copyright © 2021 - 2023 Mapbox, Inc. All rights reserved.
+
+The software and files in this repository (collectively, “Software”) are licensed under the Mapbox TOS for use only with the relevant Mapbox product(s) listed at www.mapbox.com/pricing. This license allows developers with a current active Mapbox account to use and modify the authorized portions of the Software as needed for use only with the relevant Mapbox product(s) through their Mapbox account in accordance with the Mapbox TOS.  This license terminates automatically if a developer no longer has a Mapbox account in good standing or breaches the Mapbox TOS. For the license terms, please see the Mapbox TOS at https://www.mapbox.com/legal/tos/ which incorporates the Mapbox Product Terms at www.mapbox.com/legal/service-terms.  If this Software is a SDK, modifications that change or interfere with marked portions of the code related to billing, accounting, or data collection are not authorized and the SDK sends limited de-identified location and usage data which is used in accordance with the Mapbox TOS. [Updated 2023-01]

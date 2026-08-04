@@ -1,0 +1,1 @@
+MOCK FINAL PROMPT: Summarize the following extracted text, emphasizing that it is zero-dependency.

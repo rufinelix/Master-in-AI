@@ -1,0 +1,85 @@
+# Quran - API
+
+> Quran API with media audio [<marko.inline.RawText object at 0x000001F2535F7B50>].
+
+### Deployment
+> This API has lived at: https://api.quran.gading.dev
+
+#### Terms of using Live API that hosted in https://api.quran.gading.dev
+FYI, this [<marko.inline.RawText object at 0x000001F2536A7550>] already has a rate limiter of  and . So, you cant rely on this [<marko.inline.RawText object at 0x000001F254009250>] for continuous use. But, you can cache the API result into local/client storage, and your app doesnt need to request the API frequently.
+
+On the other side, its [<marko.inline.RawText object at 0x000001F254009510>] to deploy this API with yourself, just click the  below, or clone this repository and deploy it wherever cloud/server you want.
+
+#### Deploy your own!
+
+
+
+#### What is the reason behind I limit the incoming requests in this Live API?
+Yeah, of course Im glad that this API is known and used by many people. But unfortunately,  noticed that my Personal Account has reached its limit. So, that the reason is.
+
+
+  
+
+
+---
+
+### Introduction
+This API data source comes from the combination of several parameters from  and  by merging its data to one JSON file with new structure for the better use and performance. Futhermore, this api uses indexed querying techniques with  access time which is greatly affects performance.
+
+### Features
+- [x] Arabic Transliteration
+- [x] English and Indonesia translation
+- [x] Verses meta (juz, sajda, manzil, etc)
+- [x] Tafsir surahs and verses (for now, only Bahasa Indonesia)
+- [x] Audio ([<marko.inline.RawText object at 0x000001F25400A810>] murrotal edition)
+- [ ] Your requests ?
+
+### Data Source
+-  = Quran, Meta Verses, Audio.
+-  = Indonesia translations and tafsir verses (short/long).
+-  = Indonesia tafsir surah [note: ambiguous revelation type on surah 13 and 55 in this source. So, I changed it to medinan (according to sahih international data)]
+
+### Endpoint usage
+- [x]  = Returns the list of surahs in Al-Quran.
+- [x]  = Returns spesific surah. Example: 
+- [x]  = Returns spesific ayah with requested surah. Example: 
+- [x]  = Returns spesific juz with all ayah.Example: 
+
+### Recommended fonts for Al-quran
+- 
+- 
+
+### Available Commands
+-  = run server.
+-  = run develop server.
+-  = collect new data from the data source, then unifying it in one JSON file.
+
+### Performance Measurement & Comparison
+
+#### 
+
+> Fetching on  with audio, en translation & transliteration, id translation . Result: [<marko.inline.RawText object at 0x000001F253D640D0>]
+
+
+
+#### 
+
+> Fetching on  with audio, en translation & transliteration, id translation & tafsir (a lot more data and hosted on free serverless). [<marko.inline.RawText object at 0x000001F253D66910>]
+
+
+
+### LICENSE
+MIT
+
+### Support Me
+
+#### Global
+
+
+#### Indonesia
+- Bank Syariah Mandiri [REK: 7142365973 (SUTAN GADING F NASUTION)]
+- 
+- 
+
+---
+Copyright © 2020 by Sutan Gading Fadhillah Nasution

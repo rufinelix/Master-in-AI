@@ -1,0 +1,36 @@
+
+====
+
+
+
+
+
+
+
+## Introduction
+xlnt is a modern C++ library for manipulating spreadsheets in memory and reading/writing them from/to XLSX files as described in . The first public release of xlnt version 1.0 was on May 10th, 2017. Current work is focused on increasing compatibility, improving performance, and brainstorming future development goals. For a high-level summary of what you can do with this library, see . Contributions are welcome in the form of pull requests or discussions on .
+
+## Example
+
+Including xlnt in your project, creating a new spreadsheet, and saving it as "example.xlsx"
+
+
+
+## Documentation
+
+Documentation for the current release of xlnt is available .
+
+## Building xlnt - Using vcpkg
+
+You can download and install xlnt using the  dependency manager:
+
+    git clone https://github.com/microsoft/vcpkg.git
+    cd vcpkg
+    ./bootstrap-vcpkg.sh
+    ./vcpkg integrate install
+    ./vcpkg install xlnt
+
+The xlnt port in vcpkg is kept up to date by Microsoft team members and community contributors. If the version is out of date, please  on the vcpkg repository.
+
+## License
+xlnt is released to the public for free under the terms of the MIT License. See  for the full text of the license and the licenses of xlnts third-party dependencies.  should be distributed alongside any assemblies that use xlnt in source or compiled form.

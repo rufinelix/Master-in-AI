@@ -1,0 +1,100 @@
+<div align="center">
+  <h1>OmniStream</h1>
+  <p>The next-generation distributed event-streaming broker.</p>
+</div>
+
+[![Build Status](https://github.com/omnidist/omnistream/workflows/CI/badge.svg)](https://github.com/omnidist/omnistream/actions)
+[![Coverage](https://codecov.io/gh/omnidist/omnistream/branch/main/graph/badge.svg)](https://codecov.io/gh/omnidist/omnistream)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Docker Pulls](https://img.shields.io/docker/pulls/omnidist/omnistream.svg)](https://hub.docker.com/r/omnidist/omnistream)
+
+## Overview
+
+**OmniStream** is a highly scalable, distributed, and fault-tolerant event-driven message broker engineered specifically for high-throughput streaming applications. Built from the ground up in Rust to ensure memory safety and zero-cost abstractions, OmniStream provides an advanced pub/sub architecture with built-in support for **exactly-once delivery guarantees**, persistent distributed logs, and seamless cloud-native deployment via Kubernetes.
+
+Unlike legacy message queues, OmniStream implements a lock-free append-only log structured around Raft consensus, allowing it to handle up to 10 million events per second per node with sub-millisecond p99 latency. It is primarily designed for real-time analytics pipelines, complex event processing (CEP), and microservices orchestration.
+
+## Key Capabilities
+
+*   **Exactly-Once Semantics (EOS):** Ensures that no messages are duplicated or lost during network partitions or node failures.
+*   **Tiered Storage:** Automatically offloads cold data to S3 or GCS while keeping hot data in NVMe drives.
+*   **Kubernetes Native:** Ships with a Helm chart and a custom Operator for zero-downtime scaling and automatic leader election.
+*   **Multi-Tenancy:** Provides strong isolation at the namespace level with hard quotas and RBAC.
+
+## Installation & Deployment
+
+The recommended way to deploy OmniStream in production is using Docker or Kubernetes. 
+
+### Docker Compose Quickstart
+
+Create a `docker-compose.yml`:
+```yaml
+version: '3.8'
+services:
+  omnistream-broker:
+    image: omnidist/omnistream:v2.4.0
+    ports:
+      - "9092:9092"
+      - "8080:8080"
+    environment:
+      - OMNI_CLUSTER_ID=local-cluster
+      - OMNI_LOG_DIR=/var/lib/omnistream/data
+    volumes:
+      - omni-data:/var/lib/omnistream/data
+
+volumes:
+  omni-data:
+```
+Run it: `docker-compose up -d`
+
+## Developer Guide
+
+OmniStream exposes both a high-performance binary protocol (on port 9092) and a RESTful management API (on port 8080). Official client libraries are available for Python, Go, and Rust.
+
+### Python Client Example
+
+First, install the client:
+```bash
+pip install omnistream-client
+```
+
+Publishing a message:
+```python
+from omnistream import Producer
+
+producer = Producer(brokers=["localhost:9092"])
+producer.connect()
+
+# Publish an event to the 'user-clicks' topic
+future = producer.publish(
+    topic="user-clicks",
+    payload={"user_id": 402, "action": "login"},
+    partition_key="402"
+)
+# Block until delivery is confirmed by the Raft leader
+receipt = future.get()
+print(f"Delivered at offset: {receipt.offset}")
+```
+
+### REST API Reference (Management)
+
+You can inspect topic metadata via the REST API.
+
+`GET /api/v1/topics/user-clicks`
+
+**Response:**
+```json
+{
+  "topic": "user-clicks",
+  "partitions": 12,
+  "replication_factor": 3,
+  "retention_bytes": 107374182400,
+  "status": "HEALTHY"
+}
+```
+
+## Contributing
+We welcome contributions! Please see `CONTRIBUTING.md` for guidelines on submitting pull requests. Make sure to run `cargo fmt` and `cargo clippy` before committing.
+
+## License
+OmniStream is licensed under the Apache License, Version 2.0. See `LICENSE` for the full text.

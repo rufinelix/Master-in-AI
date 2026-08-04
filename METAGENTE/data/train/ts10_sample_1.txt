@@ -1,0 +1,57 @@
+# react-tdd-guide
+A series of examples on how to TDD React
+
+## Getting started
+
+1. install 
+- Grab an editor or IDE. I recommend Webstorm, Atom, and VIM, in that order.
+-  ...
+-  OR if v4 of node.js is installed, 
+- 
+
+## How to use this guide
+
+Each section is broken out into its own folder, starting with . What youll find there is the finished example. I am experimenting with using the  and comments to drive the guide itself. Feedback on whether this works or not would be appreciated.
+
+Each commit that is suffixed with "- red" can be checked out separately to examine the failing test. Each commit that is suffixed with "- green" shows how I finally passed the failing assertion.
+
+Looking at the history for each section will show you only the steps needed to drive that part of the application.
+
+## Philosophy
+
+* Avoid the need for runners and browsers
+  * Achieved by using jest and 
+
+## Table of Contents
+
+*  - Steps for TDDing the simplest of React components: An unordered list of items. Start here if youre not familiar with TDDing React and want to see a simple introduction.
+  * 
+*  (WIP)
+* 
+* Centralized state management techniques (not done)
+* Redux (not done)
+* React router (not done)
+
+## Running the tests for a section
+
+* 
+
+## Running all tests
+
+* 
+
+## Contributing
+
+Please feel free to open an issue for:
+
+* A question on how to do something
+* A request for further clarification
+
+Use a pull request for
+
+* Suggestions on changing how something is tested
+* To add an example you think would be valuable
+
+## Caveats
+
+I am not a windows user, therefore this has only been tested on OSX.

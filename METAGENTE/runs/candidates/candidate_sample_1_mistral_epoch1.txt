@@ -1,0 +1,1 @@
+FastLogger is a fast logging library.
